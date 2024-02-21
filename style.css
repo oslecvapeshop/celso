@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+p{
+    color: #050505;
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.col-2{
+    -ms-flex-basic: 50%;
+    min-width: 800px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 25px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display:inline-block;
+    background: #000000;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border: radius 30px;
+}
+.header{
+    background: radial-gradient( rgb(240, 240, 240), rgb(0, 37, 138));
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9c9797;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*---product---*/
+
+.cart-notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: none;
+}
+
+.product-card.added-to-cart .cart-notification {
+    display: block;
+}
+
+
+
+
+
+.product-card {
+    border: 3px solid #00027c;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: fit-content;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #240f0f;
+}
+
+
+#about {
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-member {
+    margin: 0 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.team-member p {
+    color: #888;
+}
+/*---contact---*/
+/* Add the following CSS inside the styles.css file */
+
+#contact {
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Add the following CSS inside the styles.css file */
+
+/* Cart Styles */
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+#cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cart {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.cart-item {
+    margin-bottom: 5px;
+}
+/* Add the following CSS inside the styles.css file */
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+#cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cart {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.cart-item {
+    margin-bottom: 5px;
+}
+#cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 318px;
+    display: none;
+    margin-top: 10%;
+}
